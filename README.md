@@ -14,25 +14,25 @@ Koulun C# Käyttöliittymäohjelmointikurssin lopputehtävä. Tarkoitus oli yhdi
 
 Unityllä luotu pelin-alku, jossa tarkoituksenani oli luoda keinopainovoima ja muuta kokeilua.
 Näppäimet:
-  Hiiri 1 - "Pomputa" ensimmäistä palloa
-  Hiiri 2 - "Pomputa" toista palloa
-  Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
+  <br><t>Hiiri 1 - "Pomputa" ensimmäistä palloa
+  <br><t>Hiiri 2 - "Pomputa" toista palloa
+  <br><t>Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
   
 ## Harjoitustyö
 
 Projekti, jossa yhdessä koulukaverini kanssa loimme lämpömittarin ja Raspberry Pi:tä hyödyntäen.
 Tämä koostuu seuraavista komponenteista:
-  Raspberry Pi 3 + Sense HAT sensorilaatta:
-    - Lämpötilan mittaus
-    - Lämpötilan raportointi MQTT -serverille
-    - Lämpötilan raportointi Sense HATin ledinäytössä
+  <br><t>Raspberry Pi 3 + Sense HAT sensorilaatta:
+    <br><t>- Lämpötilan mittaus
+    <br><t>- Lämpötilan raportointi MQTT -serverille
+    <br><t>- Lämpötilan raportointi Sense HATin ledinäytössä
     
-  Raspberry Pi 4:
-    - Lämpötilatietojen vastaanotto (MQTT)
-    - Lämpötilatietojen tallennus InfluxDB tietokantaan
-    - Lämpötilatietojen esitys Grafanassa InfluxDB:n kautta
-    - Lämpötilatietojen esitys WordPress sivustolla (https://pascalinkolmio.ddns.net)
-      (tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta ensimmäisellä kerralla)
+  <br><t>Raspberry Pi 4:
+    <br><t>- Lämpötilatietojen vastaanotto (MQTT)
+    <br><t>- Lämpötilatietojen tallennus InfluxDB tietokantaan
+    <br><t>- Lämpötilatietojen esitys Grafanassa InfluxDB:n kautta
+    <br><t>- Lämpötilatietojen esitys WordPress sivustolla (https://pascalinkolmio.ddns.net)
+      <br><t>(tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta ensimmäisellä kerralla)
 
 Repossa vain projektissa käytetyt koodit. Myös paljon "kokeilu" koodeja, jotka eivät ole ajossa.
 
