@@ -14,25 +14,25 @@ Koulun C# Käyttöliittymäohjelmointikurssin lopputehtävä. Tarkoitus oli yhdi
 
 Unityllä luotu pelin-alku, jossa tarkoituksenani oli luoda keinopainovoima ja muuta kokeilua.
 Näppäimet:
-  <br><t>Hiiri 1 - "Pomputa" ensimmäistä palloa
-  <br><t>Hiiri 2 - "Pomputa" toista palloa
-  <br><t>Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hiiri 1 - "Pomputa" ensimmäistä palloa
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hiiri 2 - "Pomputa" toista palloa
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
   
 ## Harjoitustyö
 
 Projekti, jossa yhdessä koulukaverini kanssa loimme lämpömittarin ja Raspberry Pi:tä hyödyntäen.
 Tämä koostuu seuraavista komponenteista:
-  <br><t>Raspberry Pi 3 + Sense HAT sensorilaatta:
-    <br><t>- Lämpötilan mittaus
-    <br><t>- Lämpötilan raportointi MQTT -serverille
-    <br><t>- Lämpötilan raportointi Sense HATin ledinäytössä
+  <br>&nbsp;&nbsp;Raspberry Pi 3 + Sense HAT sensorilaatta:
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilan mittaus
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilan raportointi MQTT -serverille
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilan raportointi Sense HATin ledinäytössä
     
-  <br><t>Raspberry Pi 4:
-    <br><t>- Lämpötilatietojen vastaanotto (MQTT)
-    <br><t>- Lämpötilatietojen tallennus InfluxDB tietokantaan
-    <br><t>- Lämpötilatietojen esitys Grafanassa InfluxDB:n kautta
-    <br><t>- Lämpötilatietojen esitys WordPress sivustolla (https://pascalinkolmio.ddns.net)
-      <br><t>(tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta ensimmäisellä kerralla)
+  <br>&nbsp;&nbsp;&nbsp;Raspberry Pi 4:
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen vastaanotto (MQTT)
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen tallennus InfluxDB tietokantaan
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen esitys Grafanassa InfluxDB:n kautta
+    <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen esitys WordPress sivustolla (https://pascalinkolmio.ddns.net)
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta ensimmäisellä kerralla)
 
 Repossa vain projektissa käytetyt koodit. Myös paljon "kokeilu" koodeja, jotka eivät ole ajossa.
 
