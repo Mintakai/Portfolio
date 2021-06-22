@@ -32,7 +32,7 @@ Tämä koostuu seuraavista komponenteista:
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen tallennus InfluxDB tietokantaan
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen esitys Grafanassa InfluxDB:n kautta
     <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Lämpötilatietojen esitys WordPress sivustolla (https://pascalinkolmio.ddns.net)
-      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ensimmäisellä kerralla)
+      <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(tässä tällä hetkellä ongelmaa sertifikaattien kanssa. Lämpötilatietojen näkeminen edellyttää lämpötilojen avaamisen grafanan kautta &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ensimmäisellä kerralla)
 
 Repossa vain projektissa käytetyt koodit. Myös paljon "kokeilu" koodeja, jotka eivät ole ajossa.
 
@@ -50,4 +50,4 @@ Omien kotisivujeni runko. Djangon päällä pyörivä toteutus, joka sijaitsee o
 
 ## Station
 
-Keskeneräinen API -kokeilu, jossa tarkoituksena luoda niin sanottu sääasema kotikäyttöön. Kokeilu vaatii oman API-keyn hankkimisen "https://tomorrow.io":sta
+Keskeneräinen API -kokeilu, jossa tarkoituksena luoda niin sanottu sääasema kotikäyttöön. Kokeilu vaatii oman API-keyn hankkimisen "https://tomorrow.io" :sta
