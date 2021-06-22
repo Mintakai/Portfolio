@@ -2,15 +2,15 @@
 Random works with different technologies.
 
 
-## BMI Calculator
+## BMI Calculator (Android Studio, Kotlin)
 
 Android Studiolla, Kotlinilla luotu appi, joka laskee painoindeksisi. Myös tilastot.
 
-## Collage
+## Collage (Visual Studio, C#)
 
 Koulun C# Käyttöliittymäohjelmointikurssin lopputehtävä. Tarkoitus oli yhdistää useita eri tekniikoita eräänlaiseen kokoelmaan.
 
-## eXperiment
+## eXperiment (Unity, C#)
 
 Unityllä luotu pelin-alku, jossa tarkoituksenani oli luoda keinopainovoima ja muuta kokeilua.
 Näppäimet:
@@ -18,7 +18,7 @@ Näppäimet:
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hiiri 2 - "Pomputa" toista palloa
   <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
   
-## Harjoitustyö
+## Harjoitustyö (Raspberry, Visual Studio, MQTT, InfluxDB, WordPress, Python)
 
 Projekti, jossa yhdessä koulukaverini kanssa loimme lämpömittarin ja Raspberry Pi:tä hyödyntäen.
 Tämä koostuu seuraavista komponenteista:
@@ -36,18 +36,18 @@ Tämä koostuu seuraavista komponenteista:
 
 Repossa vain projektissa käytetyt koodit. Myös paljon "kokeilu" koodeja, jotka eivät ole ajossa.
 
-## Olympic
+## Olympic (Visual Studio, C#)
 
 C# Graafista kokeilua. Olympiarenkaiden esitys / manipulointi.
 
-## RPG System
+## RPG System (Visual Studio Code, Python)
 
 Barebones RPG -pelisysteemin kokeilu Pythonilla. Aja ohjelma, syötä hahmosi nimi ja valitse hahmoluokka. Sen jälkeen peli "pelaa itseään"
 
-## RSQ
+## RSQ (Django, Python, JavaScript)
 
 Omien kotisivujeni runko. Djangon päällä pyörivä toteutus, joka sijaitsee omalla kotiserverilläni. Osoite on: "http://aurorae.tk:8080" Näitä on tarkoitus laajentaa jatkossa. Sisältävät kokeilua esim. Graafisen laskimen ja Quiz -alustan.
 
-## Station
+## Station (Visual Studio, C#)
 
 Keskeneräinen API -kokeilu, jossa tarkoituksena luoda niin sanottu sääasema kotikäyttöön. Kokeilu vaatii oman API-keyn hankkimisen osoitteesta "https://tomorrow.io"
