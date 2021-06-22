@@ -14,9 +14,9 @@ Koulun C# Käyttöliittymäohjelmointikurssin lopputehtävä. Tarkoitus oli yhdi
 
 Unityllä luotu pelin-alku, jossa tarkoituksenani oli luoda keinopainovoima ja muuta kokeilua.
 Näppäimet:
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hiiri 1 - "Pomputa" ensimmäistä palloa
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hiiri 2 - "Pomputa" toista palloa
-  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hiiri 1 - "Pomputa" ensimmäistä palloa
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Hiiri 2 - "Pomputa" toista palloa
+  <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Välilyönti - Vaihda kameraa ensimmäisen ja toisen pallon välillä
   
 ## Harjoitustyö
 
