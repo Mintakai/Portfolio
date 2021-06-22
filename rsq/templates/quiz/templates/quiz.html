@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}rsq - Quiz{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'quiz/css/quiz.css' %}">
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.min.js"></script>
+    <script src="{% static 'quiz/js/quiz.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <h3 class="def_title">
+        Quiz
+    </h3>
+    <p class="def_text">
+        Answer correctly and see your rank!
+    </p>
+    <form action="">
+        <input id="subbutton" type="submit" value="submit">
+    </form>
+    <div class="results">
+    </div>
+{% endblock %}

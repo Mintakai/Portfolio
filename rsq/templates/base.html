@@ -1,0 +1,48 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            {% block title %}
+            {% endblock %}
+        </title>
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Varela">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="{% static 'over/css/style.css' %}">
+        {% block styles %}
+        {% endblock %}
+
+        <meta name="description" content="a platform for different projects of mine.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="referrer" content="origin">
+        
+        <meta name="google" content="notranslate">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="{% static 'over/js/script.js' %}"></script>
+        {% block scripts %}
+        {% endblock %}
+    </head>
+    <body>
+        <div class="topnav" id="topnav">
+            <a href="{% url 'home' %}">[home]</a>
+            <a href="{% url 'quiz' %}">[quiz]</a>
+            <a href="{% url 'calc' %}">[calculator]</a>
+            <a href="#" id="login">[login]</a>
+            <p><span>Your current IP: </span>{{ ip }}</p>
+            <a href="javascript:void(0);" class="icon" onclick="fuNav()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <div id="logMod" class="mod">
+        </div>
+
+        {% block content %}
+        {% endblock %}
+        <div class="footer" id="footer">
+            <p>Copyright &copy; Toni Heinänen 2021</p>
+        </div>
+    </body>
+</html>

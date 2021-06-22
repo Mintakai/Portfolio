@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block title %}rsq - Home{% endblock %}
+
+{% block content %}
+    <h3 class="def_title">
+        Welcome! It's quite empty here at this moment...
+    </h3>
+    <p class="def_text">
+        You can view your current IP address on the nav bar at the top of the site.<br>
+        You could also try and see how you fare in the <a class="nodeco" href="{% url 'quiz' %}">quiz!</a>
+    </p>
+{% endblock %}

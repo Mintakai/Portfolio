@@ -1,0 +1,19 @@
+.calc_container {
+    width: 50%;
+    margin: auto;
+}
+
+input {
+    margin-left: 10px;
+}
+
+#calc_text {
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 800px) {
+    .calc_container {
+        width: 90%;
+    }
+}

@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}rsq - Calculator{% endblock %}
+
+{% block styles %}
+<link rel="stylesheet" href="{% static 'calc/css/calc.css' %}">
+{% endblock %}
+
+{% block scripts %}
+    <script src="https://cdn.jsdelivr.net/npm/mathjs@9.3.0/lib/browser/math.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script src="{% static 'calc/js/calc.js' %}"></script>
+{% endblock %}
+
+{% block content %}
+    <h3 class="def_title">
+        Calculator
+    </h3>
+    <p class="def_text">
+        Please enter an expression and valid steps to view results!
+    </p>
+    <div class="cfieldcontainer">
+        <input type="text" class="cfield" id="function" placeholder="function f(x)"><br>
+        <input type="text" class="cfield" id="start_x" placeholder="x start"><br>
+        <input type="text" class="cfield" id="end_x" placeholder="x end"><br>
+        <input type="text" class="cfield" id="x_step" placeholder="x step"><br>
+        <input type="button" class="cbutton" id="ccalculate" value="calculate" onclick="getData()">
+    </div>
+    <div class="calc_container">
+        <canvas id="testChart"></canvas>
+    </div>
+    <div id="calc_text">
+    </div>
+{% endblock %}
