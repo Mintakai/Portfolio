@@ -50,4 +50,4 @@ Omien kotisivujeni runko. Djangon päällä pyörivä toteutus, joka sijaitsee o
 
 ## Station
 
-Keskeneräinen API -kokeilu, jossa tarkoituksena luoda niin sanottu sääasema kotikäyttöön. Kokeilu vaatii oman API-keyn hankkimisen "https://tomorrow.io" :sta
+Keskeneräinen API -kokeilu, jossa tarkoituksena luoda niin sanottu sääasema kotikäyttöön. Kokeilu vaatii oman API-keyn hankkimisen osoitteesta "https://tomorrow.io"
