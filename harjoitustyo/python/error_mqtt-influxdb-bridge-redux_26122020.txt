@@ -1,0 +1,28 @@
+Received PUBLISH (d0, q0, r0, m0), 'savia/sauna/varaaja/yla', ...  (11 bytes)
+savia/sauna/varaaja/yla unavailable
+Caught exception in on_message: could not convert string to float: 'unavailable'
+Caught exception in on_message: could not convert string to float: 'unavailable'
+Traceback (most recent call last):
+  File "python/mqtt-influxdb-bridge-redux.py", line 86, in <module>
+    main()
+  File "python/mqtt-influxdb-bridge-redux.py", line 82, in main
+    mqtt_client.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1779, in loop_forever
+    rc = self.loop(timeout, max_packets)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1181, in loop
+    rc = self.loop_read(max_packets)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1572, in loop_read
+    rc = self._packet_read()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 2310, in _packet_read
+    rc = self._packet_handle()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 2936, in _packet_handle
+    return self._handle_publish()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3216, in _handle_publish
+    self._handle_on_message(message)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3444, in _handle_on_message
+    self.on_message(self, self._userdata, message)
+  File "python/mqtt-influxdb-bridge-redux.py", line 42, in on_message
+    sensor_data = _parse_mqtt_message(msg.topic, msg.payload.decode('utf-8'))
+  File "python/mqtt-influxdb-bridge-redux.py", line 37, in _parse_mqtt_message
+    return SensorData(measurement, location, float(payload))
+ValueError: could not convert string to float: 'unavailable'

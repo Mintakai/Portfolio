@@ -1,0 +1,26 @@
+Received PUBLISH (d0, q0, r0, m0), 'savia/sauna/varaaja/yla', ...  (11 bytes)
+savia/sauna/varaaja/yla unavailable
+Caught exception in on_message: local variable 'sensor_data' referenced before assignment
+Caught exception in on_message: local variable 'sensor_data' referenced before assignment
+Traceback (most recent call last):
+  File "python/mqtt-influxdb-bridge-redux.py", line 88, in <module>
+    main()
+  File "python/mqtt-influxdb-bridge-redux.py", line 84, in main
+    mqtt_client.loop_forever()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1779, in loop_forever
+    rc = self.loop(timeout, max_packets)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1181, in loop
+    rc = self.loop_read(max_packets)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 1572, in loop_read
+    rc = self._packet_read()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 2310, in _packet_read
+    rc = self._packet_handle()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 2936, in _packet_handle
+    return self._handle_publish()
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3216, in _handle_publish
+    self._handle_on_message(message)
+  File "/usr/local/lib/python3.7/dist-packages/paho/mqtt/client.py", line 3444, in _handle_on_message
+    self.on_message(self, self._userdata, message)
+  File "python/mqtt-influxdb-bridge-redux.py", line 45, in on_message
+    if sensor_data is not None:
+UnboundLocalError: local variable 'sensor_data' referenced before assignment
