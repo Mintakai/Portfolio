@@ -1,0 +1,18 @@
+﻿<Window x:Class="olympic.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:olympic"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="MainCanvas">
+            
+        </Canvas>
+        <Button x:Name="bgButton" Content="Background" HorizontalAlignment="Center" VerticalAlignment="Top" Click="bg_Click"/>
+        <Button x:Name="drawButton" Content="Draw" HorizontalAlignment="Left" VerticalAlignment="Bottom" Click="draw_Click"/>
+        <Button x:Name="deleteButton" Content="Delete" HorizontalAlignment="Right" VerticalAlignment="Bottom" Click="delete_Click"/>
+        <Button x:Name="explodeButton" Content="Explosion!" HorizontalAlignment="Center" VerticalAlignment="Bottom" Click="explode_Click"/>
+    </Grid>
+</Window>
