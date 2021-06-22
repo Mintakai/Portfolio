@@ -1,0 +1,108 @@
+﻿<Window x:Class="collage.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:collage"
+        mc:Ignorable="d"
+        Title="Collage v1.0" 
+        Background="Gray"
+        MinHeight="300"
+        MinWidth="300"
+        Height="400"
+        Width="400"
+        FontSize="16"
+        FontFamily="Segoe UI" Icon="/Trix.jpg">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="20"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="20"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="lCalc"
+               HorizontalAlignment="Right"
+               Grid.Column="2"
+               Grid.Row="3"
+               Content="Calculator"/>
+
+        <Label x:Name="lNpad"
+               HorizontalAlignment="Right"
+               Grid.Column="2"
+               Grid.Row="4"
+               Content="Notepad"/>
+
+        <Label x:Name="lDraw"
+               HorizontalAlignment="Right"
+               Grid.Column="2"
+               Grid.Row="5"
+               Content="Canvas"/>
+
+        <Label x:Name="lImageDownloader"
+               HorizontalAlignment="Right"
+               Grid.Column="2"
+               Grid.Row="2"
+               Content="Image downloader"/>
+
+        <Label x:Name="lExperimental"
+               HorizontalAlignment="Right"
+               Grid.Column="2"
+               Grid.Row="6"
+               Content="Experimental"/>
+
+        <Button x:Name="bCalc"
+                Height="20"
+                Width="40"
+                FontSize="12"
+                Grid.Column="3"
+                Grid.Row="3"
+                Content="open" Click="bCalc_Click"/>
+
+        <Button x:Name="bNpad"
+                Height="20"
+                Width="40"
+                FontSize="12"
+                Grid.Column="3"
+                Grid.Row="4"
+                Content="open" Click="bNpad_Click"/>
+
+        <Button x:Name="bCanvas"
+                Height="20"
+                Width="40"
+                FontSize="12"
+                Grid.Column="3"
+                Grid.Row="5"
+                Content="open" Click="bCanvas_Click"/>
+
+        <Button x:Name="bImageDownloader"
+                Height="20"
+                Width="40"
+                FontSize="12"
+                Grid.Column="3"
+                Grid.Row="2"
+                Content="open" Click="bImageDownloader_Click"/>
+
+        <Button x:Name="bExperimental"
+                Height="20"
+                Width="40"
+                FontSize="12"
+                Grid.Column="3"
+                Grid.Row="6"
+                Content="open" Click="bExperimental_Click"/>
+    </Grid>
+</Window>
